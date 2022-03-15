@@ -1,0 +1,141 @@
+/********** GLOBAL AREA START HERE ***********/
+*{
+    color:white;
+    border:0;
+    padding:0;
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+}
+/********** GLOBAL AREA END HERE ***********/
+
+
+
+/********** HEADER AREA START HERE ***********/
+.navbar{
+    border-bottom:3px solid #008ed6;
+    background:rgba(0,0,0,0.7);
+    opacity:0.4;
+    z-index: 9999;
+}
+/********** HEADER AREA END HERE ***********/
+
+
+
+/********** HOME AREA START HERE ***********/
+#home-section{
+    background:url(img/header.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center center;
+    min-height: 700px;
+    background-attachment:fixed;
+    overflow:hidden;
+    padding-bottom:100px;
+}
+.dark-overlay{
+    background:rgba(0,0,0,0.6);
+    min-height:700px;
+}
+#home-inner{
+    padding-top:150px;
+}
+.icon-style{
+    background:white;
+    padding:5px;
+    color:green;
+    border-radius:4px;
+}
+/********** HOME AREA END HERE ***********/
+
+
+
+/********** EXPLORE AREA START HERE ***********/
+#explore{
+background: #636363;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/********** EXPLORE AREA END HERE ***********/
+
+
+
+
+/********** EXPLORE LEARN AREA START HERE ***********/
+#explore-learn{
+    padding:100px 0;
+}
+.explore-img{
+    border-radius:5px;
+}
+.icon-style-learn{
+    background:black;
+    color:white;
+    padding:4px;
+    border-radius:4px;
+}
+/********** EXPLORE LEARN AREA END HERE ***********/
+
+
+
+/********** CREATE AREA START HERE ***********/
+
+#create{
+    background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#636363 #a2ab58);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #636363,#a2ab58); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/********** CREATE AREA END HERE ***********/
+
+
+
+/********** PASSION AREA START HERE ***********/
+#passion{
+    padding:100px 0;
+    background: #16222A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.icon-style-passion{
+    background:white;
+    padding:4px;
+    border-radius:4px;
+    color:blue;
+}
+/********** PASSION AREA END HERE ***********/
+
+
+
+/********** SHARE AREA START HERE ***********/
+#share{
+    padding:50px 0;
+    background: #636363;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #a2ab58, #636363);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #a2ab58, #636363); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding:50px 0;
+}
+/********** SHARE AREA END HERE ***********/
+
+
+
+/********** SHARE-2 AREA START HERE ***********/
+#what-share{
+    padding:100px 0;
+}
+/********** SHARE-2 AREA END HERE ***********/
+
+
+
+/********** FOOTER AREA START HERE ***********/
+#footer-home{
+    padding:50px 0;
+}
+::placeholder{
+    text-align:left;
+}
+/********** FOOTER AREA END HERE ***********/
